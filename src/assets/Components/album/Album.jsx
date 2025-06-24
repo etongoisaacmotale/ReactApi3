@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 
-export default class Album extends Component {
+ class Album extends Component {
   render() {
     return (
-      <div>Album</div>
+      <div>
+<h1>HELLO WORLD</h1>
+      </div>
     )
   }
 }
+
+export default Album
