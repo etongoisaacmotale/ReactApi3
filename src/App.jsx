@@ -17,7 +17,7 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom'
             <Route path="/" element={<Menu/>} />
             <Route path="/posts" element={<Posts />} />
             <Route path="/comments" element={<Comments />} />
-            <Route path="/albums" element={<Albums />} />
+            <Route path="/albums" element={<Album />} />
             <Route path="/photos" element={<Photos />} />
             <Route path="/todos" element={<Todos />} />
           </Routes>
