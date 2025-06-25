@@ -1,19 +1,20 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Menu from './components/Menu';
-import Posts from './components/Posts';
-import Comments from './components/Comments';
-import Albums from './components/Albums';
-import Photos from './components/Photos';
-import Todos from './components/Todos';
+import React, { Component } from 'react'
+import Album from './assets/Components/album/Album'
+import Comments from './assets/Components/comments/Comments'
+import Menu from './assets/Components/menu/Menu'
+import Posts from './assets/Components/posts/Posts'
+import Todos from './assets/Components/todos/Todos'
+import Photos from './assets/Components/photos/Photos'
+import { BrowserRouter, Route,Routes } from 'react-router-dom'
 
-export default class App extends Component {
+ class App extends Component {
   render() {
     return (
       <Router>
         <div className="container">
+        
           <Routes>
-            <Routes path="/" element={<Menu/>} />
+            <Route path="/" element={<Menu/>} />
             <Route path="/posts" element={<Posts />} />
             <Route path="/comments" element={<Comments />} />
             <Route path="/albums" element={<Albums />} />
@@ -25,3 +26,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default App
