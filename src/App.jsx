@@ -12,8 +12,8 @@ export default class App extends Component {
     return (
       <Router>
         <div className="container">
-          <Menu />
           <Routes>
+            <Routes path="/" element={<Menu/>} />
             <Route path="/posts" element={<Posts />} />
             <Route path="/comments" element={<Comments />} />
             <Route path="/albums" element={<Albums />} />
