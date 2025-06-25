@@ -10,7 +10,7 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom'
  class App extends Component {
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <div className="container">
         
           <Routes>
@@ -22,7 +22,7 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom'
             <Route path="/todos" element={<Todos />} />
           </Routes>
         </div>
-      </Router>
+      </BrowserRouter>
     );
   }
 }

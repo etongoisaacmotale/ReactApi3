@@ -28,7 +28,7 @@ export default class Comments extends Component {
   render() {
     const {comments,error,loading}=this.state
     if(loading){
-        return <div>loading.......</div>
+        return <div>loading.........</div>
     }
     if(error){
         return <div>Error: {error}</div>
