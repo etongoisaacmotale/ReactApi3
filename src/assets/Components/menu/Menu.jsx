@@ -9,7 +9,7 @@ export default class Menu extends Component {
         <Link to="/comments" style={{ marginRight: '1rem' }}>Comments</Link>
         <Link to="/albums" style={{ marginRight: '1rem' }}>Albums</Link>
         <Link to="/photos" style={{ marginRight: '1rem' }}>Photos</Link>
-        <Link to="/todos">Todos</Link>
+        <Link to="/todos">Todo</Link>
       </nav>
     );
   }

@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { Component } from 'react'
 
 export default class Album extends Component {
+<<<<<<< HEAD
     constructor(props) {
       super()
     
@@ -54,4 +55,11 @@ export default class Album extends Component {
           </div>
         )
       }
+=======
+  render() {
+    return (
+      <div>new Album</div>
+    )
+  }
+>>>>>>> c8b65f9eecba361e03e1d0190876f38cc21abbd1
 }
