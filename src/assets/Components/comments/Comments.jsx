@@ -12,7 +12,7 @@ export default class Comments extends Component {
       }
     }
     componentDidMount(){
-        axios.get("https://jsonplaceholder.typicode.com/posts/1/comments")
+        axios.get("https://jsonplaceholder.typicode.com/comments")
         .then(response=>{
             this.setState({
                comments:response.data,
