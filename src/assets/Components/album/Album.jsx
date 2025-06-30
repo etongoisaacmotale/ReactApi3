@@ -42,9 +42,7 @@ export default class Album extends Component {
             <ul>
                 {album.map(album =>(
                     <li key = {album.id}>
-                       <strong> {album.name}</strong>
-                       <p>{album.email}</p>
-                       <p>{album.body}</p>
+                       <strong> {album.title}</strong>
     
                     </li>
                     
