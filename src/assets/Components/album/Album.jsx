@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { Component } from 'react'
+import './Album.css';
 
 export default class Album extends Component {
     constructor(props) {

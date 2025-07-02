@@ -40,7 +40,7 @@ export default class Comments extends Component {
             {comments.map(comment =>(
                 <li key = {comment.id}>
                    <strong> {comment.name}</strong>
-                   <p>{comment.email}</p>
+                   <p id='email'>{comment.email}</p>
                    <p>{comment.body}</p>
 
                 </li>
