@@ -6,13 +6,12 @@ import Posts from './assets/Components/posts/Posts'
 import Todos from './assets/Components/todos/Todos'
 import Photos from './assets/Components/photos/Photos'
 import { BrowserRouter, Route,Routes } from 'react-router-dom'
-
  class App extends Component {
   render() {
     return (
+    <div>
       <BrowserRouter>
         <div className="container">
-        
           <Routes>
             <Route path="/" element={<Menu/>} />
             <Route path="/posts" element={<Posts />} />
@@ -23,6 +22,7 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom'
           </Routes>
         </div>
       </BrowserRouter>
+      </div>
     );
   }
 }

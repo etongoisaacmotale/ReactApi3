@@ -6,6 +6,7 @@ export default class Menu extends Component {
   render() {
     return (
       <nav className="menu">
+        <h1>Api Menu</h1>
         <NavLink to="/posts" activeClassName="active">Posts</NavLink>
         <NavLink to="/comments" activeClassName="active">Comments</NavLink>
         <NavLink to="/albums" activeClassName="active">Albums</NavLink>
