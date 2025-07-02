@@ -1,0 +1,45 @@
+/* Menu.css */
+
+/* Make body full height and use Flexbox to center the menu */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9f9;
+}
+
+/* Container: style nav like a form box */
+nav.menu {
+  background-color: #fff;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column; /* stack items like form fields */
+  gap: 1rem;
+  width: 300px; /* adjust as needed */
+}
+
+/* Menu links look like form buttons */
+nav.menu a {
+  display: block;
+  text-align: center;
+  background-color: #04AA6D;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav.menu a:hover {
+  background-color: #037d53;
+}
+
+nav.menu a.active {
+  background-color: #045c3d;
+}
